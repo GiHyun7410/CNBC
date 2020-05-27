@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	
+	<script type="application/javascript"></script>
+	<script>
+	'touchStart':function(oCustomEvent){
+		oCustomEvent.oEvent.stop(jindo.$Event.CANCLE_DEFAULT);
+	}
+		
+	$(function(){
+	 //터치시 색변화
+		 $(".list_wrap").bind("touchstart", function(){
+		 	$(this).toggleClass("bgcolor")
+		 });
+		 $(".list_wrap").bind("touchmove", function(){
+		 	$(this).removeClass("bgcolor")
+		 });
+	 });
+		
+	</script>
+	
+		<head>
+			<meta charset="utf-8">
+			<title>대테러원스톱</title>
+		
+			<link rel = "apple-touch-icon-precomposed" href="./picture/apple-touch-icon.png">
+			<link rel= "shortcut icon" href="./picture/android-icon-72x72.png">
+			<link rel="apple-touch-icon-precomposed" href="./picture/apple-icon-72x72.png">
+			<link rel="stylesheet" href="style.css">
+<!--			모웹일용 웹-->
+			<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<!--			안드로이드 홈화면추가시 상단 주거창 제거-->
+			<meta name="mobile-web-app-capable" content="yes">
+<!--			ios홈화면추가시 상단 주거창 제거-->
+			<meta name="apple-mobile-web-app-capable" content="yes">
+			
+			   
+		</head>
+		<body>
+			<header>
+					<div class="row">
+							<div class="col">
+									<img class="style-logo" src="./picture/남부청로고1.png" alt="style logo">
+							</div>
+					</div>
+			</header>
+			<main>
+				<div class="row">
+					<div class="col">
+						<img src="메인화면1.jpg" alt=""> <br>
+					<div class="row1">
+					  	<a href="폭발물테러.html" class="col col-md-one-half col-lg-one-fourth"><img src="./picture/폭발물테러.JPG" alt=""></a>
+					</div>
+					<div class="row2">
+						<a href="총기테러.html" class="col col-md-one-half col-lg-one-fourth"><img src="./picture/총기인질테러.JPG" alt="">	</a>
+					</div>
+					<div class="row3">
+						<a href="화학테러.html"  class="col col-md-one-half col-lg-one-fourth"><img src="./picture/화학테러.JPG" alt="">	</a>
+					</div>
+					<div class="row4">
+				 		<a href="생물학테러.html"  class="col col-md-one-half col-lg-one-fourth"><img src="./picture/생물학테러.JPG" alt="">	</a>
+					</div>
+					<div class="row5">
+						<a href="방사능테러.html"  class="col col-md-one-half col-lg-one-fourth"><img src="./picture/방사능테러.JPG" alt="">	</a>
+					</div>
+					<div class="row6">
+						<a href="관계기관연락처.html"  class="col col-md-one-half col-lg-one-fourth"><img src="./picture/연락처.JPG" alt="">	</a>
+					</div>
+					<div class="row7">
+						<a href="장비물자착용법.html"  class="col col-md-one-half col-lg-one-fourth"><img src="./picture/장비물자착용법.JPG" alt="">	</a>
+					</div>
+					</div>
+				</div>
+
+				</main>
+				<footer></footer>
+		</body>
+</html>

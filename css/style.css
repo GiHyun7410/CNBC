@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header{padding: 30px;}
+
+img{width: 100%;	max-width: 100%;	height: auto;	vertical-align: middle;}
+
+.style-logo{
+	margin-left: auto;	
+	margin-right: auto;
+	display: block;
+	width:192px;
+}

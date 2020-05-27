@@ -7,65 +7,23 @@
 		<style type="text/css">
 			@import url("./css/작용제별오염통제거리.css");
 		</style>
-		<script type="text/ecmascript" src="./JS/jquery-3.4.1.min.js"></script>
+		<!-- <script type="text/ecmascript" src="./JS/jquery-3.4.1.min.js"></script> -->
+		<script type="text/javascript" src="./JS/header.js"></script>
+		<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$("#menus").load("menu.html")
+				});
+			</script>
 								
 	</head>
 	<body>
 		<header></header>
 		<main>
+
 <!--사이드 메뉴 만들기----------------------------------->
-			<input type="checkbox" id="sidebar"> 
-			<label for="sidebar">
-				<span>목</span>
-				<span>차</span>
-			</label>
 
-			<div class="sidebar_content">
-				<ul>
-					<li><a href="index.html" class=""><img src="./picture/메인화면1.jpg" alt=""></a></li>
-					<li><a href="폭발물테러.html" class=""><img src="./picture/폭발물테러.JPG" alt=""></a></li>
-					<li><a href="총기테러.html" class=""><img src="./picture/총기인질테러.JPG" alt="">	</a></li>
-					<li><a href="화학테러.html"  class=""><img src="./picture/화학테러.JPG" alt=""></a></li>
-					<li><a href="생물학테러.html"  class=""><img src="./picture/생물학테러.JPG" alt=""></a></li>
-					<li><a href="방사능테러.html"  class=""><img src="./picture/방사능테러.JPG" alt=""></a></li>
-				</ul>
-				<label for="sidebar"></label>
-			</div>
-
-			<label for="sidebar" class="background"></label>
-
-<!-------------------------------------------사이드 두번쩨-------------------->
-
-
-			<input type="checkbox" id="sidebar1"> 
-			<label for="sidebar1">
-				<span>장</span>
-				<span>비</span>
-			</label>
-
-			<div class="sidebar_content1">
-				<ul>
-					<li><a href="방독면착용.html" class=""><img src="./picture/K5방독면착용.JPG" alt=""></a></li>
-					<li><a href="화재대피마스크.html" class=""><img src="./picture/화재대피방독면.jpg" alt=""></a></li>
-					<li><a href="화생방보호복착용.html" class=""><img src="./picture/화생방보호의착용.JPG" alt=""></a></li>
-					<li><a href="레벨C착용.html"  class=""><img src="./picture/레벨C착용.JPG" alt=""></a></li>
-					<li><a href="제독제사용.html"  class=""><img src="./picture/제독제사용.JPG" alt=""></a></li>
-					<li><a href="방사능선량계.html"  class=""><img src="./picture/방사능측정기사용.JPG" alt=""></a></li>
-					<li><a href="제독장비사용.html"  class=""><img src="./picture/제독장비사용.JPG" alt=""></a></li>
-				</ul>
-				<label for="sidebar1"></label>
-			</div>
-
-			<label for="sidebar1" class="background1"></label>
-		
-		
-		
-<!-------------------------------------------사이드 두번쩨-------------------->
-
-
-			<span id="sidebar2"><a class="side" href="관계기관연락처.html">전화</a></span>
-				
-
+			<div id="menus"></div>
 
 <!--------------------------------------------------------------->
 			

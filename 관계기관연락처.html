@@ -3,12 +3,19 @@
 		<head>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1">
-				<title>관계기관 연락</title>
-			   <script src="./JS/jquery-3.4.1.min.js" type="text/javascript"></script>
+			<title>관계기관 연락</title>
+			<script src="./JS/jquery-3.4.1.min.js" type="text/javascript"></script>
 			
 			<style type="text/css">
 				@import url("./css/관계기관연락처.css");
 			</style>
+			<script type="text/javascript" src="./JS/header.js"></script>
+			<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$("#menus").load("menu.html")
+				});
+			</script>
 			
 			<script>
 			$(document).ready(function(){
@@ -21,23 +28,14 @@
 				})
 			})
 			</script>
-			<script type="text/javascript" src="./JS/header.js"></script>
-			<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
-			<script type="text/javascript">
-				$(document).ready(function(){
-					$("#menus").load("menu.html")
-				});
-			</script>
 		</head>
 		<body>
-			<header>
-
-			</header>
-			<main>
+			<header></header>
+		<main>
 								
 <!--사이드 메뉴 만들기----------------------------------->
 	
-		<div id="menus"></div>				
+			<div id="menus"></div>				
 <!--------------------------------------------------------------->
 	
 				<div id="containerA">

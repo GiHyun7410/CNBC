@@ -19,6 +19,14 @@
 		
 	</script>
 	
+	<script type="text/javascript">
+		document.documentElement.addEventListener('touchstart', function(event){
+			if (event.touches.length > 1) {
+				event.preventDefault();
+			}
+		}, false);
+	</script>
+	
 		<head>
 			<meta charset="utf-8">
 			<title>대테러원스톱</title>

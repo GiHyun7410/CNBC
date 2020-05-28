@@ -57,7 +57,7 @@ input[type="radio"]:checked + label{
 }
 
 
-.conbox{width: 100%;height: 100%;background: #FFFFFF;margin: -10px auto; display: none;
+.conbox{width: 100%;height: 100%;background: #FFFFFF;margin: -1px auto; display: none;
 }
 
 

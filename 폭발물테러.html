@@ -1,108 +1,101 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-	
-		<meta name="viewport" content="width=device-width, user-scalable=no">
-		<title>폭발물테러</title>
-		<style type="text/css">	
-			@import url("./css/테러.css");
-		</style>
-			<script type="text/javascript" src="./JS/header.js"></script>
-			<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
-			<script type="text/javascript">
-				$(document).ready(function(){
-					$("#menus").load("menu.html")
-				});
-			</script>
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>폭발물테러</title>
+	<style type="text/css">	
+		@import url("./css/테러.css");
+	</style>
+	<script type="text/javascript" src="./JS/header.js"></script>
+	<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#menus").load("menu.html")
+		});
+	</script>
+</head>
 
-	<body>
-		
+<body>
+
 	<main>
 
-<!--사이드 메뉴 만들기----------------------------------->
+		<div id="menus"></div> <!-- 사이드 메뉴 -->
 
-		<div id="menus"></div>		
+		<div class="container">
+			<img src="./picture/폭발물테러.JPG" alt="">
+		</div>
 
-<!------------------------------------->
-
-	<div class="container">
-		<img src="./picture/폭발물테러.JPG" alt="">
-	</div>
-
-<!--------------------------------------------------------------->
-	  <div class="tab_content"> <br>
-			
+		<div class="tab_content"> <br>
 			<input type="radio" name="tabmenu" id="tab01" checked>
 			<label for="tab01">협박 신고</label>
-		<input type="radio" name="tabmenu" id="tab02">
-		<label for="tab02">발견 신고</label>
-		<input type="radio" name="tabmenu" id="tab03">
-		<label for="tab03">테러 발생</label>
-		
-			
+			<input type="radio" name="tabmenu" id="tab02">
+			<label for="tab02">발견 신고</label>
+			<input type="radio" name="tabmenu" id="tab03">
+			<label for="tab03">테러 발생</label>
 			<div class="conbox con1">
-	
-			<div id="grid" ><br><br>
-			  <img class="cate" src="./picture/현장출동.png" alt="">
-				<div class="accordion">
-					<div class="accSub">
-					  <label class="check" id="cA1">
-						<input type="checkbox" id="cbA1">
-							<span class="icon" > </span>
-						</label>	
-						<input type="checkbox" id="answer01A">
-						<label  class="A" for="answer01A">신고 접수<em></em></label>
-						<ul><li class="fff">관련 상황 (발견 장소, 크기, 형태 등)을 전체 파악하고 접수와 동시에 전파한다.</li>
-							<li>오인신고, 허위신고로 예단 금지, 인내심 갖고 통화</li>
-						  <li class="ddd">상습허위신고자, 주취자 여부 확인</li>
-							<li>2인이상 청취, 가능한 길게 통화</li>
-							<li>신고내용 정확하고 신속하게 파악 전파 통보</li>
-							<br><br></ul>
-					</div>
+				<div id="grid" ><br><br>
+					<img class="cate" src="./picture/현장출동.png" alt="">
+					<div class="accordion">
+						<div class="accSub">
+							<label class="check" id="cA1">
+								<input type="checkbox" id="cbA1">
+								<span class="icon" > </span>
+							</label>	
+							<input type="checkbox" id="answer01A">
+							<label  class="A" for="answer01A">신고 접수<em></em></label>
+							<ul><li class="fff">관련 상황 (발견 장소, 크기, 형태 등)을 전체 파악하고 접수와 동시에 전파한다.</li>
+								<li>오인신고, 허위신고로 예단 금지, 인내심 갖고 통화</li>
+								<li class="ddd">상습허위신고자, 주취자 여부 확인</li>
+								<li>2인이상 청취, 가능한 길게 통화</li>
+								<li>신고내용 정확하고 신속하게 파악 전파 통보</li>
+								<br><br>
+							</ul>
+						</div>
 
-					<div class="accSub">
-						<label class="no_check" id="cA1_1">
-							<input type="no_checkbox" id="cbA1_1">
-							<span class="no_icon" > </span>
-						</label>
-						<input type="checkbox" id="answer01_1A">	
+						<div class="accSub">
+							<label class="no_check" id="cA1_1">
+								<input type="no_checkbox" id="cbA1_1">
+								<span class="no_icon" > </span>
+							</label>
+							<input type="checkbox" id="answer01_1A">	
 
-						<label class="A" for="answer01_1A">신고 접수시 확인 사항<em></em></label>
+							<label class="A" for="answer01_1A">신고 접수시 확인 사항<em></em></label>
 							<ul><li>폭파, 협박범 상황 접수시, 목격자(신고자) 상황 접수시</li>
-							<li>1. 접수 일시, 통화 종료시각 : </li>
-							<li>2. 발신전화번호 :</li>
-							<li>3. 협박 내용 :</li>
-							<li>4. 질문사항</li>
-							<li  class="ddd">무슨일로 신고를 하였나요? </li>
-							<li  class="ddd">폭발물은 어디에 설치했나요? (어디에 설치되어 있나요?)</li>
-							<li  class="ddd">언제 폭발할 것인가요?</li>
-							<li  class="ddd">무슨(어떤 종류) 폭발물인가요?(어떻게 생겼나요?)</li>
-							<li  class="ddd">본인이 직접 설치하였나요?</li>
-							<li  class="ddd">지금 어디에서 전화하시는 거에요?</li>
-							<li  class="ddd">요구사항이 무엇입니까?(왜 그러세요?)</li>
-							<li  class="ddd">폭발물로 보이는 물체를 놓고 간 사람은 있나요?</li>
-							<li  class="ddd">발신자의 정체, 감정상태, 언어적 특성, 배경소리, 접수자, 접수자 전화번호, 접수자 조치사항</li><br><br></ul>
-					</div>	
-					<div class="accSub">
-						<label class="check" id="cA2">
-							<input type="checkbox" id="cbA2">
-							<span class="icon"> </span>
-						</label>
-						<input type="checkbox" id="answer02A">
-						<label class="A" for="answer02A">방탄복 등 장비 착용<em></em></label>
-						<ul><li>출동경찰관 보호장비 (방탄복, 총기 등) 착용</li></ul>
+								<li>1. 접수 일시, 통화 종료시각 : </li>
+								<li>2. 발신전화번호 :</li>
+								<li>3. 협박 내용 :</li>
+								<li>4. 질문사항</li>
+								<li  class="ddd">무슨일로 신고를 하였나요? </li>
+								<li  class="ddd">폭발물은 어디에 설치했나요? (어디에 설치되어 있나요?)</li>
+								<li  class="ddd">언제 폭발할 것인가요?</li>
+								<li  class="ddd">무슨(어떤 종류) 폭발물인가요?(어떻게 생겼나요?)</li>
+								<li  class="ddd">본인이 직접 설치하였나요?</li>
+								<li  class="ddd">지금 어디에서 전화하시는 거에요?</li>
+								<li  class="ddd">요구사항이 무엇입니까?(왜 그러세요?)</li>
+								<li  class="ddd">폭발물로 보이는 물체를 놓고 간 사람은 있나요?</li>
+								<li  class="ddd">발신자의 정체, 감정상태, 언어적 특성, 배경소리, 접수자, 접수자 전화번호, 접수자 조치사항</li><br><br>
+							</ul>
+						</div>	
+						<div class="accSub">
+							<label class="check" id="cA2">
+								<input type="checkbox" id="cbA2">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer02A">
+							<label class="A" for="answer02A">방탄복 등 장비 착용<em></em></label>
+							<ul><li>출동경찰관 보호장비 (방탄복, 총기 등) 착용</li>
+							</ul>
+						</div>
 					</div>
-				</div>
-				<br>
+					<br>
 
-				<img class="cate" src="./picture/현장상황통제.png" alt=""><br>
+					<img class="cate" src="./picture/현장상황통제.png" alt=""><br>
 
-						<label class="check" id="cA3_1">
-							<input type="checkbox" id="ooo1A">
-						  <a class="btn" href="폭발물위험성판단조치기준.html" id="btn_04A">폭발물 위험성 판단 / 조치 기준</a> <br> <br>
-						</label>
+					<label class="check" id="cA3_1">
+						<input type="checkbox" id="ooo1A">
+						<a class="btn" href="폭발물위험성판단조치기준." id="btn_04A">폭발물 위험성 판단 / 조치 기준</a> <br> <br>
+					</label>
 
 					<div class="accordion">
 						<div class="accSub">
@@ -110,10 +103,11 @@
 								<input type="checkbox" id="cbA3">
 								<span class="icon" > </span>
 							</label>
-						  <input type="checkbox" id="answer03A">
-						  <label class="B" for="answer03A"> 출입통제 (진입로 단일화)<em></em></label>
+							<input type="checkbox" id="answer03A">
+							<label class="B" for="answer03A"> 출입통제 (진입로 단일화)<em></em></label>
 							<ul><li>관계기관도 초동조치팀장 지시에 따름 </li>
-								<li>일반인, 언론사 등 현장진입통제 (언론창구 단일화)</li><br><br></ul>
+								<li>일반인, 언론사 등 현장진입통제 (언론창구 단일화)</li><br><br>
+							</ul>
 						</div>
 
 						<div class="accSub">
@@ -121,134 +115,141 @@
 								<input type="checkbox" id="cbA4">
 								<span class="icon"> </span>
 							</label>
-						  <input type="checkbox" id="answer04A">
-						  <label class="B" for="answer04A">현장 주변 교통통제<em></em></label>
+							<input type="checkbox" id="answer04A">
+							<label class="B" for="answer04A">현장 주변 교통통제<em></em></label>
 							<ul><li>경력진입로 및 사상자 후송로 확보</li></ul><br>
 						</div>
 					</div>
 
-				<img class="cate" src="./picture/경계구역설정.png" alt="">
-				<div class="accordion">
-					<div class="accSub">
-						<label class="check" id="cA5">
-							<input type="checkbox" id="cbA5">
-							<span class="icon" > </span>
-						</label>
-					  <input type="checkbox" id="answer05A">
-					  <label class="C" for="answer05A"> 경계구역(통제선) 설정<em></em></label>
-						<ul><li style="color: mediumblue">1단계 : 최초 출동경찰관 </li>
-							<li style="color: mediumblue">2단계 : 112타격대 등 </li>
-							<li style="color: mediumblue">3단계 : 현장지휘본부 </li>
-							<li style="color: mediumblue">최초 출동경력이 현장주변 가능한 범위에 1차 설치, 타격대 등 경력증원시 2, 3단계 확대 설치</li><br><br></ul>
-					</div>
-					<div class="accSub">
+					<img class="cate" src="./picture/경계구역설정.png" alt="">
+					<div class="accordion">
+						<div class="accSub">
+							<label class="check" id="cA5">
+								<input type="checkbox" id="cbA5">
+								<span class="icon" > </span>
+							</label>
+							<input type="checkbox" id="answer05A">
+							<label class="C" for="answer05A"> 경계구역(통제선) 설정<em></em></label>
+							<ul><li style="color: mediumblue">1단계 : 최초 출동경찰관 </li>
+								<li style="color: mediumblue">2단계 : 112타격대 등 </li>
+								<li style="color: mediumblue">3단계 : 현장지휘본부 </li>
+								<li style="color: mediumblue">최초 출동경력이 현장주변 가능한 범위에 1차 설치, 타격대 등 경력증원시 2, 3단계 확대 설치</li><br><br>
+							</ul>
+						</div>
+						<div class="accSub">
 
-						<label class="check" id="cA6">
-							<input type="checkbox" id="cbA6">
-							<span class="icon"> </span>
-						</label>
-					  <input type="checkbox" id="answer06A">
-					  <label class="C" for="answer06A">설치기준 (범위)<em></em></label>
-						<ul><li>건물안 또는 차폐물 있는 경우 : 최소 안전거리 50m 이상</li>
-							<li>평지 (개활지) : 최소안전거리인 300m 이상</li><br><br></ul><br>
-					</div>
+							<label class="check" id="cA6">
+								<input type="checkbox" id="cbA6">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer06A">
+							<label class="C" for="answer06A">설치기준 (범위)<em></em></label>
+							<ul><li>건물안 또는 차폐물 있는 경우 : 최소 안전거리 50m 이상</li>
+								<li>평지 (개활지) : 최소안전거리인 300m 이상</li><br><br>
+							</ul><br>
+						</div>
 
-				</div>
-				<img class="cate" src="./picture/긴급대피안전조치.png" alt="">
-				<div class="accordion">
-					<div class="accSub">
-						<label class="check" id="cA7">
-							<input type="checkbox" id="cbA7">
-							<span class="icon" > </span>
-						</label>
-					  <input type="checkbox" id="answer07A">
-					  <label class="D" for="answer07A"> 관계자 신병확보<em></em></label>
-						<ul><li>현장확인과 구조를 할 수 있도록 관계자 신병을 확보</li>
-							<li>시설관계자 : 시설관리자, 경비책임자 등</li>
-							<li>시설요도 (층별), 가스전기시설위치도 등</li><br><br></ul>
 					</div>
-					<div class="accSub">
-						<label class="check" id="cA8">
-							<input type="checkbox" id="cbA8">
-							<span class="icon"> </span>
-						</label>
-					  <input type="checkbox" id="answer08A">
-					  <label class="D" for="answer08A">주민 대피<em></em></label>
-						<ul><li>구내방송 등을 활용하여 건물에 내부에 있는 주민들을 대피 조치</li>
-							<li>전철역사일 경우 열차 등 무정차 통과 또는 진입금지 등 검토 (시설관계자 협의)</li><br><br></ul>
-					</div>
-					<div class="accSub">
-						<label class="check" id="cA9">
-							<input type="checkbox" id="cbA9">
-							<span class="icon"> </span>
-						</label>
-					  <input type="checkbox" id="answer09A">
-					  <label class="D" for="answer09A">안전 선조치<em></em></label>
-						<ul><li>폭발, 화재, 붕괴를 고려하여 선조치</li>
-							<li>원점접근 및 물체접촉 엄금</li>
-							<li>폭발 (의심)물 중심으로 주변검색, 추가폭발 (의심)물 발견</li>
-							<li>부상자 중심으로 위험물 검색 및 제거</li><br><br></ul>
+					<img class="cate" src="./picture/긴급대피안전조치.png" alt="">
+					<div class="accordion">
+						<div class="accSub">
+							<label class="check" id="cA7">
+								<input type="checkbox" id="cbA7">
+								<span class="icon" > </span>
+							</label>
+							<input type="checkbox" id="answer07A">
+							<label class="D" for="answer07A"> 관계자 신병확보<em></em></label>
+							<ul><li>현장확인과 구조를 할 수 있도록 관계자 신병을 확보</li>
+								<li>시설관계자 : 시설관리자, 경비책임자 등</li>
+								<li>시설요도 (층별), 가스전기시설위치도 등</li><br><br>
+							</ul>
+						</div>
+						<div class="accSub">
+							<label class="check" id="cA8">
+								<input type="checkbox" id="cbA8">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer08A">
+							<label class="D" for="answer08A">주민 대피<em></em></label>
+							<ul><li>구내방송 등을 활용하여 건물에 내부에 있는 주민들을 대피 조치</li>
+								<li>전철역사일 경우 열차 등 무정차 통과 또는 진입금지 등 검토 (시설관계자 협의)</li><br><br>
+							</ul>
+						</div>
+						<div class="accSub">
+							<label class="check" id="cA9">
+								<input type="checkbox" id="cbA9">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer09A">
+							<label class="D" for="answer09A">안전 선조치<em></em></label>
+							<ul><li>폭발, 화재, 붕괴를 고려하여 선조치</li>
+								<li>원점접근 및 물체접촉 엄금</li>
+								<li>폭발 (의심)물 중심으로 주변검색, 추가폭발 (의심)물 발견</li>
+								<li>부상자 중심으로 위험물 검색 및 제거</li><br><br>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-			</div>
-			
+
 			<div class="conbox con2">
-		  	<div id="grid1" ><br><br>
-			  <img class="cate" src="./picture/현장출동.png" alt="">
-				<div class="accordion">
-					<div class="accSub">
-						<label class="check" id="cB1">
-							<input type="checkbox" id="cbB1">
-							<span class="icon" > </span>
-						</label>	
-						<input type="checkbox" id="answer01B">
-						<label  class="A" for="answer01B">신고(접수)내용 파악<em></em></label>
-						<ul><li>폭발 인지, 폭발의심물제 신고 인지 여부</li>
-							<li>타격대, 형사, 교통 등 동시 출동 요청 </li><br><br></ul>
-					</div>
+				<div id="grid1" ><br><br>
+					<img class="cate" src="./picture/현장출동.png" alt="">
+					<div class="accordion">
+						<div class="accSub">
+							<label class="check" id="cB1">
+								<input type="checkbox" id="cbB1">
+								<span class="icon" > </span>
+							</label>	
+							<input type="checkbox" id="answer01B">
+							<label  class="A" for="answer01B">신고(접수)내용 파악<em></em></label>
+							<ul><li>폭발 인지, 폭발의심물제 신고 인지 여부</li>
+								<li>타격대, 형사, 교통 등 동시 출동 요청 </li><br><br>
+							</ul>
+						</div>
 
-					<div class="accSub">
-						<label class="no_check" id="cB1_1">
-							<input type="no_checkbox" id="cbB1_1">
-							<span class="no_icon" > </span>
-						</label>
-						<input type="checkbox" id="answer01_1B">	
+						<div class="accSub">
+							<label class="no_check" id="cB1_1">
+								<input type="no_checkbox" id="cbB1_1">
+								<span class="no_icon" > </span>
+							</label>
+							<input type="checkbox" id="answer01_1B">	
 
-						<label class="A" for="answer01_1B">신고 접수시 확인 사항<em></em></label>
+							<label class="A" for="answer01_1B">신고 접수시 확인 사항<em></em></label>
 							<ul><li>폭파, 협박범 상황 접수시, 목격자(신고자) 상황 접수시</li>
-							<li>1. 접수 일시, 통화 종료시각 : </li>
-							<li>2. 발신전화번호 :</li>
-							<li>3. 협박 내용 :</li>
-							<li>4. 질문사항</li>
-							<li  class="ddd">무슨일로 신고를 하였나요? </li>
-							<li  class="ddd">폭발물은 어디에 설치했나요? (어디에 설치되어 있나요?)</li>
-							<li  class="ddd">언제 폭발할 것인가요?</li>
-							<li  class="ddd">무슨(어떤 종류) 폭발물인가요?(어떻게 생겼나요?)</li>
-							<li  class="ddd">본인이 직접 설치하였나요?</li>
-							<li  class="ddd">지금 어디에서 전화하시는 거에요?</li>
-							<li  class="ddd">요구사항이 무엇입니까?(왜 그러세요?)</li>
-							<li  class="ddd">폭발물로 보이는 물체를 놓고 간 사람은 있나요?</li>
-							<li  class="ddd">발신자의 정체, 감정상태, 언어적 특성, 배경소리, 접수자, 접수자 전화번호, 접수자 조치사항</li><br><br></ul>
-					</div>	
-					<div class="accSub">
-						<label class="check" id="cB2">
-							<input type="checkbox" id="cbB2">
-							<span class="icon"> </span>
-						</label>
-						<input type="checkbox" id="answer02B">
-						<label class="A" for="answer02B">방탄복 등 장비 착용<em></em></label>
-						<ul><li>출동경찰관 보호장비 (방탄복, 총기 등) 착용</li></ul>
+								<li>1. 접수 일시, 통화 종료시각 : </li>
+								<li>2. 발신전화번호 :</li>
+								<li>3. 협박 내용 :</li>
+								<li>4. 질문사항</li>
+								<li  class="ddd">무슨일로 신고를 하였나요? </li>
+								<li  class="ddd">폭발물은 어디에 설치했나요? (어디에 설치되어 있나요?)</li>
+								<li  class="ddd">언제 폭발할 것인가요?</li>
+								<li  class="ddd">무슨(어떤 종류) 폭발물인가요?(어떻게 생겼나요?)</li>
+								<li  class="ddd">본인이 직접 설치하였나요?</li>
+								<li  class="ddd">지금 어디에서 전화하시는 거에요?</li>
+								<li  class="ddd">요구사항이 무엇입니까?(왜 그러세요?)</li>
+								<li  class="ddd">폭발물로 보이는 물체를 놓고 간 사람은 있나요?</li>
+								<li  class="ddd">발신자의 정체, 감정상태, 언어적 특성, 배경소리, 접수자, 접수자 전화번호, 접수자 조치사항</li><br><br>
+							</ul>
+						</div>	
+						<div class="accSub">
+							<label class="check" id="cB2">
+								<input type="checkbox" id="cbB2">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer02B">
+							<label class="A" for="answer02B">방탄복 등 장비 착용<em></em></label>
+							<ul><li>출동경찰관 보호장비 (방탄복, 총기 등) 착용</li></ul>
+						</div>
 					</div>
-				</div>
-				<br>
+					<br>
 
-				<img class="cate" src="./picture/현장상황통제.png" alt=""><br>
+					<img class="cate" src="./picture/현장상황통제.png" alt=""><br>
 
-						<label class="check" id="cB3_1">
-							<input type="checkbox" id="ooo1B">
-							<a class="btn" href="폭발물위험성판단조치기준.html" id="btn_04B">폭발물 위험성 판단 / 조치 기준</a> <br> <br>
-						</label>
+					<label class="check" id="cB3_1">
+						<input type="checkbox" id="ooo1B">
+						<a class="btn" href="폭발물위험성판단조치기준." id="btn_04B">폭발물 위험성 판단 / 조치 기준</a> <br> <br>
+					</label>
 
 					<div class="accordion">
 						<div class="accSub">
@@ -259,7 +260,8 @@
 							<input type="checkbox" id="answer03B">
 							<label class="B" for="answer03B"> 출입통제 (진입로 단일화)<em></em></label>
 							<ul><li>관계기관도 초동조치팀장 지시에 따름 </li>
-								<li>일반인, 언론사 등 현장진입통제 (언론창구 단일화)</li><br><br></ul>
+								<li>일반인, 언론사 등 현장진입통제 (언론창구 단일화)</li><br><br>
+							</ul>
 						</div>
 
 						<div class="accSub">
@@ -273,128 +275,135 @@
 						</div>
 					</div>
 
-				<img class="cate" src="./picture/경계구역설정.png" alt="">
-				<div class="accordion">
-					<div class="accSub">
-						<label class="check" id="cB5">
-							<input type="checkbox" id="cbB5">
-							<span class="icon" > </span>
-						</label>
-						<input type="checkbox" id="answer05B">
-						<label class="C" for="answer05B"> 경계구역(통제선) 설정<em></em></label>
-						<ul><li style="color: mediumblue">1단계 : 최초 출동경찰관 </li>
-							<li style="color: mediumblue">2단계 : 112타격대 등 </li>
-							<li style="color: mediumblue">3단계 : 현장지휘본부 </li>
-							<li style="color: mediumblue">최초 출동경력이 현장주변 가능한 범위에 1차 설치, 타격대 등 경력증원시 2, 3단계 확대 설치</li><br><br></ul>
-					</div>
-					<div class="accSub">
+					<img class="cate" src="./picture/경계구역설정.png" alt="">
+					<div class="accordion">
+						<div class="accSub">
+							<label class="check" id="cB5">
+								<input type="checkbox" id="cbB5">
+								<span class="icon" > </span>
+							</label>
+							<input type="checkbox" id="answer05B">
+							<label class="C" for="answer05B"> 경계구역(통제선) 설정<em></em></label>
+							<ul><li style="color: mediumblue">1단계 : 최초 출동경찰관 </li>
+								<li style="color: mediumblue">2단계 : 112타격대 등 </li>
+								<li style="color: mediumblue">3단계 : 현장지휘본부 </li>
+								<li style="color: mediumblue">최초 출동경력이 현장주변 가능한 범위에 1차 설치, 타격대 등 경력증원시 2, 3단계 확대 설치</li><br><br>
+							</ul>
+						</div>
+						<div class="accSub">
 
-						<label class="check" id="cB6">
-							<input type="checkbox" id="cbB6">
-							<span class="icon"> </span>
-						</label>
-						<input type="checkbox" id="answer06B">
-						<label class="C" for="answer06B">설치기준 (범위)<em></em></label>
-						<ul><li>건물안 또는 차폐물 있는 경우 : 최소 안전거리 50m 이상</li>
-							<li>평지 (개활지) : 최소안전거리인 300m 이상</li><br><br></ul><br>
-					</div>
+							<label class="check" id="cB6">
+								<input type="checkbox" id="cbB6">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer06B">
+							<label class="C" for="answer06B">설치기준 (범위)<em></em></label>
+							<ul><li>건물안 또는 차폐물 있는 경우 : 최소 안전거리 50m 이상</li>
+								<li>평지 (개활지) : 최소안전거리인 300m 이상</li><br><br>
+							</ul><br>
+						</div>
 
-				</div>
-				<img class="cate" src="./picture/긴급대피안전조치.png" alt="">
-				<div class="accordion">
-					<div class="accSub">
-						<label class="check" id="cB7">
-							<input type="checkbox" id="cbB7">
-							<span class="icon" > </span>
-						</label>
-						<input type="checkbox" id="answer07B">
-						<label class="D" for="answer07B"> 관계자 신병확보<em></em></label>
-						<ul><li>현장확인과 구조를 할 수 있도록 관계자 신병을 확보</li>
-							<li>시설관계자 : 시설관리자, 경비책임자 등</li>
-							<li>시설요도 (층별), 가스전기시설위치도 등</li><br><br></ul>
 					</div>
-					<div class="accSub">
-						<label class="check" id="cB8">
-							<input type="checkbox" id="cbB8">
-							<span class="icon"> </span>
-						</label>
-						<input type="checkbox" id="answer08B">
-						<label class="D" for="answer08B">주민 대피<em></em></label>
-						<ul><li>구내방송 등을 활용하여 건물에 내부에 있는 주민들을 대피 조치</li>
-							<li>전철역사일 경우 열차 등 무정차 통과 또는 진입금지 등 검토 (시설관계자 협의)</li><br><br></ul>
-					</div>
-					<div class="accSub">
-						<label class="check" id="cB9">
-							<input type="checkbox" id="cbB9">
-							<span class="icon"> </span>
-						</label>
-						<input type="checkbox" id="answer09B">
-						<label class="D" for="answer09B">안전 선조치<em></em></label>
-						<ul><li>폭발, 화재, 붕괴를 고려하여 선조치</li>
-							<li>원점접근 및 물체접촉 엄금</li>
-							<li>폭발 (의심)물 중심으로 주변검색, 추가폭발 (의심)물 발견</li>
-							<li>부상자 중심으로 위험물 검색 및 제거</li><br><br></ul>
+					<img class="cate" src="./picture/긴급대피안전조치.png" alt="">
+					<div class="accordion">
+						<div class="accSub">
+							<label class="check" id="cB7">
+								<input type="checkbox" id="cbB7">
+								<span class="icon" > </span>
+							</label>
+							<input type="checkbox" id="answer07B">
+							<label class="D" for="answer07B"> 관계자 신병확보<em></em></label>
+							<ul><li>현장확인과 구조를 할 수 있도록 관계자 신병을 확보</li>
+								<li>시설관계자 : 시설관리자, 경비책임자 등</li>
+								<li>시설요도 (층별), 가스전기시설위치도 등</li><br><br>
+							</ul>
+						</div>
+						<div class="accSub">
+							<label class="check" id="cB8">
+								<input type="checkbox" id="cbB8">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer08B">
+							<label class="D" for="answer08B">주민 대피<em></em></label>
+							<ul><li>구내방송 등을 활용하여 건물에 내부에 있는 주민들을 대피 조치</li>
+								<li>전철역사일 경우 열차 등 무정차 통과 또는 진입금지 등 검토 (시설관계자 협의)</li><br><br>
+							</ul>
+						</div>
+						<div class="accSub">
+							<label class="check" id="cB9">
+								<input type="checkbox" id="cbB9">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer09B">
+							<label class="D" for="answer09B">안전 선조치<em></em></label>
+							<ul><li>폭발, 화재, 붕괴를 고려하여 선조치</li>
+								<li>원점접근 및 물체접촉 엄금</li>
+								<li>폭발 (의심)물 중심으로 주변검색, 추가폭발 (의심)물 발견</li>
+								<li>부상자 중심으로 위험물 검색 및 제거</li><br><br>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-		  </div>
-		  
+
 			<div class="conbox con3">
-		  	<div id="grid2" ><br><br>
-			  <img class="cate" src="./picture/현장출동.png" alt="">
-				<div class="accordion">
-					<div class="accSub">
-						<label class="check" id="cC1">
-							<input type="checkbox" id="cbC1">
-							<span class="icon" > </span>
-						</label>	
-						<input type="checkbox" id="answerC01">
-						<label  class="A" for="answerC01">신고(접수)내용 파악<em></em></label>
-						<ul><li>폭발 인지, 폭발의심물제 신고 인지 여부</li>
-							<li>타격대, 형사, 교통 등 동시 출동 요청 </li><br><br></ul>
-					</div>
+				<div id="grid2" ><br><br>
+					<img class="cate" src="./picture/현장출동.png" alt="">
+					<div class="accordion">
+						<div class="accSub">
+							<label class="check" id="cC1">
+								<input type="checkbox" id="cbC1">
+								<span class="icon" > </span>
+							</label>	
+							<input type="checkbox" id="answerC01">
+							<label  class="A" for="answerC01">신고(접수)내용 파악<em></em></label>
+							<ul><li>폭발 인지, 폭발의심물제 신고 인지 여부</li>
+								<li>타격대, 형사, 교통 등 동시 출동 요청 </li><br><br>
+							</ul>
+						</div>
 
-					<div class="accSub">
-						<label class="no_check">
-							<input type="no_checkbox" id="cbC1_1">
-							<span class="no_icon" > </span>
-						</label>
-						<input type="checkbox" id="answer01_1C">	
+						<div class="accSub">
+							<label class="no_check">
+								<input type="no_checkbox" id="cbC1_1">
+								<span class="no_icon" > </span>
+							</label>
+							<input type="checkbox" id="answer01_1C">	
 
-						<label class="A" for="answer01_1C">신고 접수시 확인 사항<em></em></label>
+							<label class="A" for="answer01_1C">신고 접수시 확인 사항<em></em></label>
 							<ul><li>폭파, 협박범 상황 접수시, 목격자(신고자) 상황 접수시</li>
-							<li>1. 접수 일시, 통화 종료시각 : </li>
-							<li>2. 발신전화번호 :</li>
-							<li>3. 협박 내용 :</li>
-							<li>4. 질문사항</li>
-							<li  class="ddd">무슨일로 신고를 하였나요? </li>
-							<li  class="ddd">폭발물은 어디에 설치했나요? (어디에 설치되어 있나요?)</li>
-							<li  class="ddd">언제 폭발할 것인가요?</li>
-							<li  class="ddd">무슨(어떤 종류) 폭발물인가요?(어떻게 생겼나요?)</li>
-							<li  class="ddd">본인이 직접 설치하였나요?</li>
-							<li  class="ddd">지금 어디에서 전화하시는 거에요?</li>
-							<li  class="ddd">요구사항이 무엇입니까?(왜 그러세요?)</li>
-							<li  class="ddd">폭발물로 보이는 물체를 놓고 간 사람은 있나요?</li>
-							<li  class="ddd">발신자의 정체, 감정상태, 언어적 특성, 배경소리, 접수자, 접수자 전화번호, 접수자 조치사항</li><br><br></ul>
-					</div>	
-					<div class="accSub">
-						<label class="check" id="cC2">
-							<input type="checkbox" id="cbC2">
-							<span class="icon"> </span>
-						</label>
-						<input type="checkbox" id="answer02C">
-						<label class="A" for="answer02C">방탄복 등 장비 착용<em></em></label>
-						<ul><li>출동경찰관 보호장비 (방탄복, 총기 등) 착용</li></ul>
+								<li>1. 접수 일시, 통화 종료시각 : </li>
+								<li>2. 발신전화번호 :</li>
+								<li>3. 협박 내용 :</li>
+								<li>4. 질문사항</li>
+								<li  class="ddd">무슨일로 신고를 하였나요? </li>
+								<li  class="ddd">폭발물은 어디에 설치했나요? (어디에 설치되어 있나요?)</li>
+								<li  class="ddd">언제 폭발할 것인가요?</li>
+								<li  class="ddd">무슨(어떤 종류) 폭발물인가요?(어떻게 생겼나요?)</li>
+								<li  class="ddd">본인이 직접 설치하였나요?</li>
+								<li  class="ddd">지금 어디에서 전화하시는 거에요?</li>
+								<li  class="ddd">요구사항이 무엇입니까?(왜 그러세요?)</li>
+								<li  class="ddd">폭발물로 보이는 물체를 놓고 간 사람은 있나요?</li>
+								<li  class="ddd">발신자의 정체, 감정상태, 언어적 특성, 배경소리, 접수자, 접수자 전화번호, 접수자 조치사항</li><br><br>
+							</ul>
+						</div>	
+						<div class="accSub">
+							<label class="check" id="cC2">
+								<input type="checkbox" id="cbC2">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer02C">
+							<label class="A" for="answer02C">방탄복 등 장비 착용<em></em></label>
+							<ul><li>출동경찰관 보호장비 (방탄복, 총기 등) 착용</li></ul>
+						</div>
 					</div>
-				</div>
-				<br>
+					<br>
 
-				<img class="cate" src="./picture/현장상황통제.png" alt=""><br>
+					<img class="cate" src="./picture/현장상황통제.png" alt=""><br>
 
-						<label class="check" id="cC3_1">
-							<input type="checkbox" id="ooo1C">
-							<a class="btn" href="폭발물위험성판단조치기준.html" id="btn_04C">폭발물 위험성 판단 / 조치 기준</a> <br> <br>
-						</label>
+					<label class="check" id="cC3_1">
+						<input type="checkbox" id="ooo1C">
+						<a class="btn" href="폭발물위험성판단조치기준." id="btn_04C">폭발물 위험성 판단 / 조치 기준</a> <br> <br>
+					</label>
 
 					<div class="accordion">
 						<div class="accSub">
@@ -405,7 +414,8 @@
 							<input type="checkbox" id="answer03C">
 							<label class="B" for="answer03C"> 출입통제 (진입로 단일화)<em></em></label>
 							<ul><li>관계기관도 초동조치팀장 지시에 따름 </li>
-								<li>일반인, 언론사 등 현장진입통제 (언론창구 단일화)</li><br><br></ul>
+								<li>일반인, 언론사 등 현장진입통제 (언론창구 단일화)</li><br><br>
+							</ul>
 						</div>
 
 						<div class="accSub">
@@ -419,78 +429,79 @@
 						</div>
 					</div>
 
-				<img class="cate" src="./picture/경계구역설정.png" alt="">
-				<div class="accordion">
-					<div class="accSub">
-						<label class="check" id="cC5">
-							<input type="checkbox" id="cbC5">
-							<span class="icon" > </span>
-						</label>
-						<input type="checkbox" id="answer05C">
-						<label class="C" for="answer05C"> 경계구역(통제선) 설정<em></em></label>
-						<ul><li style="color: mediumblue">1단계 : 최초 출동경찰관 </li>
-							<li style="color: mediumblue">2단계 : 112타격대 등 </li>
-							<li style="color: mediumblue">3단계 : 현장지휘본부 </li>
-							<li style="color: mediumblue">최초 출동경력이 현장주변 가능한 범위에 1차 설치, 타격대 등 경력증원시 2, 3단계 확대 설치</li><br><br></ul>
-					</div>
-					<div class="accSub">
+					<img class="cate" src="./picture/경계구역설정.png" alt="">
+					<div class="accordion">
+						<div class="accSub">
+							<label class="check" id="cC5">
+								<input type="checkbox" id="cbC5">
+								<span class="icon" > </span>
+							</label>
+							<input type="checkbox" id="answer05C">
+							<label class="C" for="answer05C"> 경계구역(통제선) 설정<em></em></label>
+							<ul><li style="color: mediumblue">1단계 : 최초 출동경찰관 </li>
+								<li style="color: mediumblue">2단계 : 112타격대 등 </li>
+								<li style="color: mediumblue">3단계 : 현장지휘본부 </li>
+								<li style="color: mediumblue">최초 출동경력이 현장주변 가능한 범위에 1차 설치, 타격대 등 경력증원시 2, 3단계 확대 설치</li><br><br>
+							</ul>
+						</div>
+						<div class="accSub">
 
-						<label class="check" id="cC6">
-							<input type="checkbox" id="cbC6">
-							<span class="icon"> </span>
-						</label>
-						<input type="checkbox" id="answer06C">
-						<label class="C" for="answer06C">설치기준 (범위)<em></em></label>
-						<ul><li>건물안 또는 차폐물 있는 경우 : 최소 안전거리 50m 이상</li>
-							<li>평지 (개활지) : 최소안전거리인 300m 이상</li><br><br></ul><br>
-					</div>
+							<label class="check" id="cC6">
+								<input type="checkbox" id="cbC6">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer06C">
+							<label class="C" for="answer06C">설치기준 (범위)<em></em></label>
+							<ul><li>건물안 또는 차폐물 있는 경우 : 최소 안전거리 50m 이상</li>
+								<li>평지 (개활지) : 최소안전거리인 300m 이상</li><br><br>
+							</ul><br>
+						</div>
 
-				</div>
-				<img class="cate" src="./picture/긴급대피안전조치.png" alt="">
-				<div class="accordion">
-					<div class="accSub">
-						<label class="check" id="cC7">
-							<input type="checkbox" id="cbC7">
-							<span class="icon" > </span>
-						</label>
-						<input type="checkbox" id="answer07C">
-						<label class="D" for="answer07C"> 관계자 신병확보<em></em></label>
-						<ul><li>현장확인과 구조를 할 수 있도록 관계자 신병을 확보</li>
-							<li>시설관계자 : 시설관리자, 경비책임자 등</li>
-							<li>시설요도 (층별), 가스전기시설위치도 등</li><br><br></ul>
 					</div>
-					<div class="accSub">
-						<label class="check" id="cC8">
-							<input type="checkbox" id="cbC8">
-							<span class="icon"> </span>
-						</label>
-						<input type="checkbox" id="answer08C">
-						<label class="D" for="answer08C">주민 대피<em></em></label>
-						<ul><li>구내방송 등을 활용하여 건물에 내부에 있는 주민들을 대피 조치</li>
-							<li>전철역사일 경우 열차 등 무정차 통과 또는 진입금지 등 검토 (시설관계자 협의)</li><br><br></ul>
-					</div>
-					<div class="accSub">
-						<label class="check" id="cC9">
-							<input type="checkbox" id="cbC9">
-							<span class="icon"> </span>
-						</label>
-						<input type="checkbox" id="answer09C">
-						<label class="D" for="answer09C">안전 선조치<em></em></label>
-						<ul><li>폭발, 화재, 붕괴를 고려하여 선조치</li>
-							<li>원점접근 및 물체접촉 엄금</li>
-							<li>폭발 (의심)물 중심으로 주변검색, 추가폭발 (의심)물 발견</li>
-							<li>부상자 중심으로 위험물 검색 및 제거</li><br><br></ul>
+					<img class="cate" src="./picture/긴급대피안전조치.png" alt="">
+					<div class="accordion">
+						<div class="accSub">
+							<label class="check" id="cC7">
+								<input type="checkbox" id="cbC7">
+								<span class="icon" > </span>
+							</label>
+							<input type="checkbox" id="answer07C">
+							<label class="D" for="answer07C"> 관계자 신병확보<em></em></label>
+							<ul><li>현장확인과 구조를 할 수 있도록 관계자 신병을 확보</li>
+								<li>시설관계자 : 시설관리자, 경비책임자 등</li>
+								<li>시설요도 (층별), 가스전기시설위치도 등</li><br><br>
+							</ul>
+						</div>
+						<div class="accSub">
+							<label class="check" id="cC8">
+								<input type="checkbox" id="cbC8">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer08C">
+							<label class="D" for="answer08C">주민 대피<em></em></label>
+							<ul><li>구내방송 등을 활용하여 건물에 내부에 있는 주민들을 대피 조치</li>
+								<li>전철역사일 경우 열차 등 무정차 통과 또는 진입금지 등 검토 (시설관계자 협의)</li><br><br>
+							</ul>
+						</div>
+						<div class="accSub">
+							<label class="check" id="cC9">
+								<input type="checkbox" id="cbC9">
+								<span class="icon"> </span>
+							</label>
+							<input type="checkbox" id="answer09C">
+							<label class="D" for="answer09C">안전 선조치<em></em></label>
+							<ul><li>폭발, 화재, 붕괴를 고려하여 선조치</li>
+								<li>원점접근 및 물체접촉 엄금</li>
+								<li>폭발 (의심)물 중심으로 주변검색, 추가폭발 (의심)물 발견</li>
+								<li>부상자 중심으로 위험물 검색 및 제거</li><br><br>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-		   </div>
-			
-	  </div>
-				 
+		</div>
 	</main>
 	<br><br>
-			<footer>
-			</footer>
-			
-			</body>
+	<footer></footer>
+</body>
 </html>

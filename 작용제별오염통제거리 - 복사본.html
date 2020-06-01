@@ -1,0 +1,1233 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1">
+			<title>작용제별 위험 거리</title>
+		<style type="text/css">
+			@import url("./css/작용제별오염통제거리.css");
+		</style>
+		
+		<script type="text/javascript" src="./JS/header.js"></script>
+		<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$("#menus").load("menu.html")
+				});
+			</script>
+								
+	</head>
+	<body>
+		<header></header>
+		<main>
+
+<!--사이드 메뉴 만들기----------------------------------->
+
+			<div id="menus"></div>
+
+<!--------------------------------------------------------------->
+			
+			<div id="containerB">
+				<div class="table" id="input-form"> 물질명칭 검색 : <input class="tex" type="text" id="keyword"/> </div>
+					
+		 		<table class="table1" id="user-table">
+					<thead>
+						<tr><th class="hedl" colspan="4">화학물질별 경찰통제선 설치 기준</th></tr>
+						<tr><th class="hedl2" colspan="4">* 규모기준 - 소규모 : 200리터 이하 누출, <br>대규모 : 200리터 이상 누출</th>
+						</tr>
+						<tr><th class="tbwid_10" rowspan="2">연번</th>	
+							<th class="tbwid_20" rowspan="2">명칭</th>	
+							<th class="tbwid_30" colspan="2">PL거리</th>
+						</tr>
+						<tr bgcolor="#9CE8BF">
+							<th class="tbwid_40">소규모</th>
+							<th class="tbwid_50">대규모</th>
+						</tr>
+					</thead>
+				</table>
+		
+					
+				<table class="table2" id="user-table1">
+					<tr>		
+						<td class="tbwid_10">1</td>
+						<td class="tbwid_20"><button class="btn1" type="button" id="modal_opne_btn_00">니켈 카르보닐</button></td>
+						<div id="modal_00">
+							<div class="modal_content">
+								<h2>니켈 카르보닐</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>밀폐된 공간에서 열에 의한 폭발이 가능</p>
+								<p>열 또는 산성 물질과 반응 시에는 강한 독성 가스를 방출</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+								<button type="button" id="modal_close_btn_00">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+						</div>
+						
+						<td><button type="button" id="modal_opne_btn_a00">100m</button></td>
+							<div id="modala00">
+								<div class="modal_content">
+									<div><img class="img_s" src="./picture/니켈-카르보닐-통1.jpg" alt=""></div>
+									<button type="button" id="modal_close_btn_a00">닫기</button>
+								</div>		
+								<div class="modal_layer"></div>
+							</div>
+
+
+						<td><button type="button" id="modal_opne_btn_b00">100m</button></td>
+							<div id="modalb00">
+								<div class="modal_content">
+									<div><img class="img_s" src="./picture/니켈-카르보닐-통2.jpg" alt=""></div>
+									<button type="button" id="modal_close_btn_b00">닫기</button>
+								</div>		
+								<div class="modal_layer"></div>
+							</div>
+					</tr>	
+					
+			
+			
+					<tr>
+					<td>2</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_01">루이사이트</button></td>
+					  <div id="modal_01">
+							<div class="modal_content">
+								<h2>루이사이트</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 불꽃 등 가연성 물질과 반응 시 인화성 수소가스를 방출</p>
+								<p>가열된 증기는 공기와 결합되어 폭발이 가능</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동, 피부 접촉시 KD-1 제독제로 오염된 부위 제독</p>
+								<p>119또는 응급의료기관에 연락, 호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척, 피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_01">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+						</div>
+						<td><button type="button" id="modal_opne_btn_a01">100m</button></td>
+							<div id="modala01">
+								<div class="modal_content">
+									<div><img class="img_s" src="./picture/니켈-카르보닐-통1.jpg" alt=""></div>
+									<button type="button" id="modal_close_btn_a01">닫기</button>
+								</div>		
+								<div class="modal_layer"></div>
+							</div>
+
+
+						<td><button type="button" id="modal_opne_btn_b01">500m</button></td>
+							<div id="modalb01">
+								<div class="modal_content">
+									<div><img class="img_s" src="./picture/니켈-카르보닐-통2.jpg" alt=""></div>
+									<button type="button" id="modal_close_btn_b01">닫기</button>
+								</div>		
+								<div class="modal_layer"></div>
+							</div>
+					</tr>
+
+					
+					<tr>
+					<td>3</td>
+						<td> <button class="btn1" type="button" id="modal_opne_btn_02">메클로르에타민</button></td>
+					<div id="modal_02">
+							<div class="modal_content">
+								<h2>메클로르에타민</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>스파크, 화염, 고열에 의한 점화 및 폭발 가능성</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동, 119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척, 피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_02">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>500m</td>
+					</tr>
+				
+					<tr>
+					<td>4</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_03">메틸클로로실란</button></td>
+					<div id="modal_03">
+							<div class="modal_content">
+								<h2>메틸클로로실란</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성, 물 또는 공기중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동, 119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척, 피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_03">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>500m</td>	
+				
+					</tr>
+					
+					<tr>
+					<td>5</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_04">메틸디클로르실란</button></td>
+					<div id="modal_04">
+							<div class="modal_content">
+								<h2>메틸디클로르실란</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>공기 접촉시 폭발성 형성, 폭발 위험성 존재</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동, 119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척, 피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_04">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>500m</td>
+					</tr>
+					
+					<tr>
+					<td>6</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_05">메틸트리클로르실란</button></td>
+					<div id="modal_05">
+							<div class="modal_content">
+								<h2>메틸트리클로르실란</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성, 물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동, 119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p> *물질이 피부의 다른 부위로 퍼지지 않도록 조심</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척, 피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_05">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>500m</td>
+					</tr>
+					
+					<tr>
+					<td>7</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_06">벤젠아세트산</button></td>
+					<div id="modal_06"> 
+					  <div class="modal_content">
+								<h2>벤젠아세트산</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>화재 시 자극성, 부식성 및 유독성 가스 발생</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_06">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>500m</td>
+					</tr>
+					
+					
+					<tr>
+					<td>8</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_07">불산</button></td>
+					<div id="modal_07">
+							<div class="modal_content">
+								<h2>불산</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>가열 시 분해하여 부식성 / 독성 가스를 생성, 금속과 반응하여 가연성 수소가스 방출</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>*물질이 피부의 다른 부위로 퍼지지 않도록 조심</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척, 피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_07">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>500m</td>
+					</tr>
+					
+					<tr>
+					<td>9</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_08">불소</button></td>
+					<div id="modal_08">
+							<div class="modal_content">
+								<h2>불소</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>증기상 물질은 처음에 고기보다 무거우며 땅을 따라 분포, 물과 반응 시 플루오르화수소(불산) 등 독성물질 생성</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>*물질이 피부와 다른 부위로 퍼지지 않도록 조심</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_08">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>500m</td>	
+					</tr>
+					
+					<tr>
+					<td>10</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_09">브롬</button></td>
+					<div id="modal_09">
+							<div class="modal_content">
+								<h2>브롬</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>금속과 접촉 시 인화성 수소 가스 방출 가능</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>*물질이 피부와 다른 부위로 퍼지지 않도록 조심</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척, 피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_09">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>500m</td>
+					</tr>
+					
+					<tr>
+					<td>11</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_10">브이엑스</button></td>
+					<div id="modal_10">
+							<div class="modal_content">
+								<h2>브이엑스</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열/화염에 노출 시 공기와 결합하여 폭발성 혼합물 생성하며 연소 시 일산화탄소의 독성 가스 방출</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동 119또는 응급의료기관에 연락</p>
+								<p>증상 발생시 KMARK-1 해독제 주사 특시 투여 호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척, 피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_10">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>500m</td>
+					</tr>
+					
+					<tr>
+					<td>12</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_11">비스(2-클로로에틸)설파이드</button></td>
+					<div id="modal_11">
+							<div class="modal_content">
+								<h2>비스(2-클로로에틸)설파이드</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>가연성 물질, 금속과의 접촉 시 인화성 수소가스를 방출, 가열 시 증기는 공기와 결합하여 폭발성 혼합물을 생</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동, 119또는 응급의료기관에 연락</p>
+								<p>피부 접촉시 KD-1 제독제로 오염된 부위 제독, 호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척, 피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_11">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>	
+					<td>100m</td><td>500m</td>
+					</tr>
+					
+					<tr>
+					<td>13</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_12">2,6-비스(피크릴아미노)-3,5-다이나이트로피리딘</button></td>
+					<div id="modal_12">
+							<div class="modal_content">
+								<h2>2,6-비스(피크릴아미노)-3,5-다이나이트로피리딘</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>가연성 물질로 자극적이고 독성, 부식성의 가스 방출, 연소를 위해 자체 산소를 공급하며 충격 또는 과열로 인한 폭발 가능</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동, 119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척, 피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_12">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>		
+					<td>100m</td><td>500m</td>
+					
+					</tr>
+					
+					<tr>
+					<td>14</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_13">사린</button></td>
+					<div id="modal_13">
+							<div class="modal_content">
+								<h2>사린</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_13">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>	
+					<td>60m</td><td>400m</td>
+					</tr>
+					
+					<tr>
+					<td>15</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_14">사이클로나이트</button></td>
+					<div id="modal_14">
+							<div class="modal_content">
+								<h2>사이클로나이트</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_14">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>500m</td><td>500m</td>
+					</tr>
+					
+					<tr>
+					<td>16</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_15">사이클로사린</button></td>
+					<div id="modal_15">
+							<div class="modal_content">
+								<h2>사이클로사린</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_15">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>30m</td><td>150m</td>
+					</tr>
+					
+					<tr>
+					<td>17</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_16">사이클로테트라 메틸렌테트라니트라민</button></td>
+					<div id="modal_16">
+							<div class="modal_content">
+								<h2>사이클로테트라 메틸렌테트라니트라민</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_16">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>	
+					<td>100m</td><td>500m</td>
+					</tr>
+					
+					<tr>
+					<td>18</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_17">산화염화 인</button></td>
+					<div id="modal_17">
+							<div class="modal_content">
+								<h2>산화염화 인</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_17">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>	
+					<td>30m</td><td>150m</td>
+					</tr>
+					
+					<tr>
+					<td>19</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_18">삼브롬화붕소</button></td>
+					<div id="modal_18">
+							<div class="modal_content">
+								<h2>삼브롬화붕소</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_18">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>	
+					<td>30m</td><td>30m</td>
+					</tr>
+					
+					<tr>
+					<td>20</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_19">삼염화 인</button></td>
+					<div id="modal_19">
+							<div class="modal_content">
+								<h2>삼염화 인</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_19">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>	
+					<td>30m</td><td>150m</td>
+					</tr>
+					
+					
+					<tr>
+					<td>21</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_20">세렌화수소</button></td>
+					<div id="modal_20">
+							<div class="modal_content">
+								<h2>세렌화수소</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_20">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>	
+					<td>300m</td><td>1km</td>
+					</tr>
+					
+					<tr>
+					<td>22</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_21">소만</button></td>
+					<div id="modal_21">
+							<div class="modal_content">
+								<h2>소만</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_21">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>60m</td><td>300m</td>
+					</tr>
+					
+					<tr>
+					<td>23</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_22">시안화수소</button></td>
+					<div id="modal_22">
+							<div class="modal_content">
+								<h2>시안화수소</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_22">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>60m</td><td>300m</td>
+					</tr>
+					
+					<tr>
+					<td>24</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_23">아르신</button></td>
+					<div id="modal_23">
+							<div class="modal_content">
+								<h2>아르신</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_23">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>150m</td><td>1km</td>
+					</tr>
+					
+					<tr>
+					<td>25</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_24">에틸비스(2-클로로에틸)아민</button></td>
+					<div id="modal_24">
+							<div class="modal_content">
+								<h2>에틸비스(2-클로로에틸)아민</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_24">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>60m</td><td>200m</td>
+					</tr>
+					
+					<tr>
+					<td>26</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_25">염소 펜티플루오라이드</button></td>
+					<div id="modal_25">
+							<div class="modal_content">
+								<h2>염소 펜티플루오라이드</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_25">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>	
+					<td>100m</td><td>800m</td>
+					</tr>
+					
+					<tr>
+					<td>27</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_26">염소</button></td>
+					<div id="modal_26">
+							<div class="modal_content">
+								<h2>염소</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_26">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>60m</td><td>1km</td>
+					</tr>
+				
+					
+					<tr>
+					<td>28</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_27">염화 트리플루오로아세틸</button></td>
+					<div id="modal_27">
+							<div class="modal_content">
+								<h2>염화 트리플루오로아세틸</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_27">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>30m</td><td>600m</td>
+					</tr>
+					
+					<tr>
+					<td>29</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_28">염화시안</button></td>
+					<div id="modal_28">
+							<div class="modal_content">
+								<h2>염화시안</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_28">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>30m</td><td>600m</td>
+					</tr>
+					
+					<tr>
+					<td>30</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_29">육불화 셀레늄</button></td>
+					<div id="modal_29">
+							<div class="modal_content">
+								<h2>육불화 셀레늄</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_29">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>200m</td><td>600m</td>
+					</tr>
+					
+					
+					<tr>
+					<td>31</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_30">육불화 텅스텐</button></td>
+					<div id="modal_30">
+							<div class="modal_content">
+								<h2>육불화 텅스텐</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_30">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>30m</td><td>150m</td>
+					</tr>
+					
+					<tr>
+					<td>32</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_31">저메인</button></td>
+					<div id="modal_31">
+							<div class="modal_content">
+								<h2>저메인</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_31">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>150m</td><td>500m</td>
+					</tr>
+					
+					<tr>
+					<td>33</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_32">카보닐 플루오라이드</button></td>
+					<div id="modal_32">
+							<div class="modal_content">
+								<h2>카보닐 플루오라이드</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_32">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>600m</td>
+					</tr>
+					
+					<tr>
+					<td>34</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_33">클로로벤질 말로노나이트릴</button></td>
+					<div id="modal_33">
+							<div class="modal_content">
+								<h2>클로로벤질 말로노나이트릴</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_33">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>30m</td><td>100m</td>
+					</tr>
+					
+					<tr>
+					<td>35</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_34">클로로피크린</button></td>
+					<div id="modal_34">
+							<div class="modal_content">
+								<h2>클로로피크린</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_34">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>60m</td><td>200m</td>
+					</tr>
+					
+					<tr>
+					<td>36</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_35">타분</button></td>
+					<div id="modal_35">
+							<div class="modal_content">
+								<h2>타분</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_35">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>50m</td><td>100m</td>
+					</tr>
+					
+					<tr>
+					<td>37</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_36">트라이스(2-클로로에틸)아민</button></td>
+					<div id="modal_36">
+							<div class="modal_content">
+								<h2>트라이스(2-클로로에틸)아민</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_36">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>30m</td><td>60m</td>
+					</tr>
+					
+					<tr>
+					<td>38</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_37">2,4,6-트리나이트로톨루엔</button></td>
+					<div id="modal_37">
+							<div class="modal_content">
+								<h2>2,4,6-트리나이트로톨루엔</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_37">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>500m</td>
+					</tr>
+					
+					<tr>
+					<td>39</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_38">트리아세톤트리옥사이드</button></td>
+					<div id="modal_38">
+							<div class="modal_content">
+								<h2>트리아세톤트리옥사이드</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_38">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>500m</td><td>800m</td>
+					</tr>
+					
+					<tr>
+					<td>40</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_39">트리플루오라이드 붕소</button></td>
+					<div id="modal_39">
+							<div class="modal_content">
+								<h2>트리플루오라이드 붕소</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_39">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>30m</td><td>400m</td>
+					</tr>
+					
+					
+					<tr>
+					<td>41</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_40">퍼플루오로아이소뷰틸렌</button></td>
+					<div id="modal_40">
+							<div class="modal_content">
+								<h2>퍼플루오로아이소뷰틸렌</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_40">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>1km</td>
+					</tr>
+					
+					<tr>
+					<td>42</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_41">펜타에리트리톨 테트라니이트레이트</button></td>
+					<div id="modal_41">
+							<div class="modal_content">
+								<h2>펜타에리트리톨 테트라니이트레이트</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_41">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>100m</td>
+					</tr>
+					
+					<tr>
+					<td>43</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_42">2-펜텐,(E)-</button></td>
+					<div id="modal_42">
+							<div class="modal_content">
+								<h2>2-펜텐,(E)-</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_42">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>50m</td><td>300m</td>
+					</tr>
+					
+					<tr>
+					<td>44</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_43">2-펜텐,(Z)-</button></td>
+					<div id="modal_43">
+							<div class="modal_content">
+								<h2>2-펜텐,(Z)-</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_43">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>50m</td><td>300m</td>
+					</tr>
+					
+					<tr>
+					<td>45</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_44">포스겐</button></td>
+					<div id="modal_44">
+							<div class="modal_content">
+								<h2>포스겐</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_44">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>500m</td>
+					</tr>
+					
+					<tr>
+					<td>46</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_45">포스핀</button></td>
+					<div id="modal_45">
+							<div class="modal_content">
+								<h2>포스핀</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_45">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>50m</td><td>300m</td>
+					</tr>
+					
+					<tr>
+					<td>47</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_46">피로인산 테트라에틸</button></td>
+					<div id="modal_46">
+							<div class="modal_content">
+								<h2>피로인산 테트라에틸</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_46">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>110m</td><td>110m</td>
+					</tr>
+					
+					<tr>
+					<td>48</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_47">피크르산</button></td>
+					<div id="modal_47">
+							<div class="modal_content">
+								<h2>피크르산</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_47">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>500m</td><td>800m</td>
+					</tr>
+					
+					<tr>
+					<td>49</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_48">헥사플루오로아세톤</button></td>
+					<div id="modal_48">
+							<div class="modal_content">
+								<h2>헥사플루오로아세톤</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_48">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>100m</td><td>1km</td>
+					</tr>
+					
+					<tr>
+					<td>50</td>
+					<td> <button class="btn1" type="button" id="modal_opne_btn_49">헥실트리클로로실란</button></td>
+					<div id="modal_49">
+							<div class="modal_content">
+								<h2>헥실트리클로로실란</h2>
+								<h3>위험성 (화재, 폭발 등)</h3>
+								<p>열, 스파크, 화염에 의한 점화 가능성</p>
+								<p>물 또는 공기 중 수분과 격렬히 반응(발열, 독성가스 발생)</p>
+								<h3>응급조치 요령</h3>
+								<p>피해자를 신선한 공기가 있는 곳으로 이동</p>
+								<p>119또는 응급의료기관에 연락</p>
+								<p>호흠이 곤란하면 산소를 공급 (구강대구강 인공호흡 금지)</p>
+								<p>오염된 의복, 신발은 제거 후 격리(피부에 들러붙은 옷 제거 금지)</p>
+								<p>노출된 피부와 눈은 흐르는 물에 20분이상 세척</p>
+								<p>피해자를 따뜻하게 해주고 안정시킴</p>
+							  <button type="button" id="modal_close_btn_49">닫기</button>
+							</div>		
+							<div class="modal_layer"></div>
+					</div>
+					<td>30m</td><td>60m</td>
+					</tr>
+				
+					<tr>
+					<td class="tfable" colspan="4"></td>
+					</tr>
+			
+							
+				</table>
+			</div>			
+
+			
+	  </main>
+		
+	<script type="text/javascript" src="./JS/controlDistace.js"></script>		
+	</body>	
+</html>

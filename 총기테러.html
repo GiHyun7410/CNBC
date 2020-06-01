@@ -1,151 +1,147 @@
 <!doctype html>
 <html>
-		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1">
-				<title>총기테러</title>
-			<style type="text/css">
-				@import url("./css/테러.css");
-			</style>
-			<script type="text/javascript" src="./JS/header.js"></script>
-			<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
-			<script type="text/javascript">
-				$(document).ready(function(){
-					$("#menus").load("menu.html")
-				});
-			</script>
-		</head>
-		<body>
-		
-			<main>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1">
+	<title>총기테러</title>
+	<style type="text/css">
+		@import url("./css/테러.css");
+	</style>
+	<script type="text/javascript" src="./JS/header.js"></script>
+	<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#menus").load("menu.html")
+		});
+	</script>
+</head>
+<body>
+	
+	<main>
 		<div class="container">
 			<img src="./picture/총기인질테러.JPG" alt="">
-			</div>
-				
-<!--사이드 메뉴 만들기----------------------------------->
+		</div>
 
-				<div id="menus"></div>		
-					
-<!--------------------------------------------------------------->
+		<div id="menus"></div>	<!-- 사이드 메뉴 -->	
 
-				<div id="grid" ><br><br>
-						
-							<img class="cate" src="./picture/현장출동.png" alt="">
-					
-						<div class="accordion">
-							<div class="accSub">
-								<label class="check" id="c1">
-									<input type="checkbox" id="cb1">
-									<span class="icon" > </span>
-								</label>
-								<input type="checkbox" id="answer01">
-								<label class="A" for="answer01">신고 (접수) 내용 파악<em></em></label>
-								<ul><li>테러범, 인질수 현장상황, 무기소지 여부 </li>
-									<li>비노출 출동하며 경광등, 사이렌 취명 절대금지</li>
-									<li>112순찰차는 원거리 목차단 배치</li>
-									</ul>
-							</div>
-							
-							<div class="accSub">
-								<label class="check" id="c2">
-									<input type="checkbox" id="cb2">
-									<span class="icon"> </span>
-								</label>
-								<input type="checkbox" id="answer02">
-								<label class="A" for="answer02">방탄복 등 장비 착용<em></em></label>
-								<ul><li>출동경찰관 보호장비 (방탄복, 총기 등) 착용</li></ul>
-							</div><br>
-							
-						</div>
-						
-							<img class="cate" src="./picture/현장상황통제.png" alt="">
-						
-						<div class="accordion">
-							<div class="accSub">
-								<label class="check" id="c3">
-									<input type="checkbox" id="cb3">
-									<span class="icon" > </span>
-								</label>
-								<input type="checkbox" id="answer03">
-								<label class="B" for="answer03"> 시설 (현장) 출입통제<em></em></label>
-								<ul><li style="color: mediumblue">진입로 단일화 (주민, 관계기관 등)</li>
-									<li class="ddd">관계기관도 초동초치팀장 지시에 따라 출입</li>
-									<li class="ddd">일반인ㆍ언론사 등 현장진입통제 (언론창구 단일화)</li>
-									<li style="color: mediumblue">현장진입통제 (언론창구 단일화)</li></ul>
-							</div>
-							
-							<div class="accSub">
-								<label class="check" id="c4">
-										<input type="checkbox" id="cb4">
-										<span class="icon"> </span>
-								</label>
-								<input type="checkbox" id="answer04">
-								<label class="B" for="answer04">주변 교통통제<em></em></label>
-								<ul><li>경력진입로 및 사상자 후송로 확보</li></ul>
-							</div><br>
-						
-						</div>
-						
-							<img class="cate" src="./picture/경계구역설정.png" alt="">
-					
-						<div class="accordion">
-							<div class="accSub">
-								<label class="check" id="c5">
-									<input type="checkbox" id="cb5">
-									<span class="icon" > </span>
-								</label>	
-								<input type="checkbox" id="answer05">
-								<label class="C" for="answer05"> 경계구역 (통제선) 설정<em></em></label>
-								<ul><li style="color: mediumblue">내부차단선 : 사건현장 중심 테러범 차단, 봉쇄선 설정 </li>
-									<li style="color: mediumblue">외부치단선 : 내부대치선 외곽 시민 등 출입통제선 설정 </li></ul>
-							</div>
-							
-							<div class="accSub">
-								<label class="check" id="c6">
-									<input type="checkbox" id="cb6">
-									<span class="icon"> </span>
-								</label>
-								<input type="checkbox" id="answer06">
-								<label class="C" for="answer06">제한 및 통제조치<em></em></label>
-								<ul><li>초동조치팀장 (경비과장, 지구대장 등) 경찰통제선 조정, 현장 철저 통제</li>
-								<li>성공적 작전ㆍ협상을 위한 변수발생 최소화</li></ul><br>
-							</div>
-							
-						</div>
-						
-							<img class="cate" src="./picture/긴급대피안전조치.png" alt="">
-						
-						<div class="accordion">
-							<div class="accSub">
-								<label class="check" id="c7">
-									<input type="checkbox" id="cb7">
-									<span class="icon" > </span>
-								</label>
-								<input type="checkbox" id="answer07">
-								<label class="D" for="answer07"> 대피 확인 및 대피 유도<em></em></label>
-								<ul><li>주민 대피여부를 확인하고 주민 대피 유도 조치</li>
-									<li>필요시 대피범위, 인원 확대 </li></ul>
-							</div>
-							
-							<div class="accSub">
-								<label class="check" id="c8">
-									<input type="checkbox" id="cb8">
-									<span class="icon"> </span>
-								</label>
-								<input type="checkbox" id="answer08">
-									<label class="D" for="answer08">피해 방지를 위한 안전조치<em></em></label>
-								<ul><li>사상자 구호를 위한 구급차, 의료진 배치</li>
-									<li>현장 (시설) 주변 <a href="http://www.gnnews.co.kr/news/articleView.html?idxno=290344">에어매트</a> 등 설치</li>
-									<li>테러범 자극 행위 일체 엄금</li></ul>
-							</div>
-							
-						</div>
+		<div id="grid" ><br><br>
+			<img class="cate" src="./picture/현장출동.png" alt="">
+			<div class="accordion">
+				<div class="accSub">
+					<label class="check" id="c1">
+						<input type="checkbox" id="cb1">
+						<span class="icon" > </span>
+					</label>
+					<input type="checkbox" id="answer01">
+					<label class="A" for="answer01">신고 (접수) 내용 파악<em></em></label>
+					<ul><li>테러범, 인질수 현장상황, 무기소지 여부 </li>
+						<li>비노출 출동하며 경광등, 사이렌 취명 절대금지</li>
+						<li>112순찰차는 원거리 목차단 배치</li>
+					</ul>
 				</div>
-			</main>
-						<br><br>
-
-			<footer>
+				
+				<div class="accSub">
+					<label class="check" id="c2">
+						<input type="checkbox" id="cb2">
+						<span class="icon"> </span>
+					</label>
+					<input type="checkbox" id="answer02">
+					<label class="A" for="answer02">방탄복 등 장비 착용<em></em></label>
+					<ul><li>출동경찰관 보호장비 (방탄복, 총기 등) 착용</li></ul>
+				</div><br>
+				
+			</div>
 			
-			</footer>
-		</body>
+			<img class="cate" src="./picture/현장상황통제.png" alt="">
+			
+			<div class="accordion">
+				<div class="accSub">
+					<label class="check" id="c3">
+						<input type="checkbox" id="cb3">
+						<span class="icon" > </span>
+					</label>
+					<input type="checkbox" id="answer03">
+					<label class="B" for="answer03"> 시설 (현장) 출입통제<em></em></label>
+					<ul><li style="color: mediumblue">진입로 단일화 (주민, 관계기관 등)</li>
+						<li class="ddd">관계기관도 초동초치팀장 지시에 따라 출입</li>
+						<li class="ddd">일반인ㆍ언론사 등 현장진입통제 (언론창구 단일화)</li>
+						<li style="color: mediumblue">현장진입통제 (언론창구 단일화)</li>
+					</ul>
+				</div>
+				
+				<div class="accSub">
+					<label class="check" id="c4">
+						<input type="checkbox" id="cb4">
+						<span class="icon"> </span>
+					</label>
+					<input type="checkbox" id="answer04">
+					<label class="B" for="answer04">주변 교통통제<em></em></label>
+					<ul><li>경력진입로 및 사상자 후송로 확보</li></ul>
+				</div><br>
+				
+			</div>
+			
+			<img class="cate" src="./picture/경계구역설정.png" alt="">
+			
+			<div class="accordion">
+				<div class="accSub">
+					<label class="check" id="c5">
+						<input type="checkbox" id="cb5">
+						<span class="icon" > </span>
+					</label>	
+					<input type="checkbox" id="answer05">
+					<label class="C" for="answer05"> 경계구역 (통제선) 설정<em></em></label>
+					<ul><li style="color: mediumblue">내부차단선 : 사건현장 중심 테러범 차단, 봉쇄선 설정 </li>
+						<li style="color: mediumblue">외부치단선 : 내부대치선 외곽 시민 등 출입통제선 설정 </li>
+					</ul>
+				</div>
+				
+				<div class="accSub">
+					<label class="check" id="c6">
+						<input type="checkbox" id="cb6">
+						<span class="icon"> </span>
+					</label>
+					<input type="checkbox" id="answer06">
+					<label class="C" for="answer06">제한 및 통제조치<em></em></label>
+					<ul><li>초동조치팀장 (경비과장, 지구대장 등) 경찰통제선 조정, 현장 철저 통제</li>
+						<li>성공적 작전ㆍ협상을 위한 변수발생 최소화</li>
+					</ul><br>
+				</div>
+				
+			</div>
+			
+			<img class="cate" src="./picture/긴급대피안전조치.png" alt="">
+			
+			<div class="accordion">
+				<div class="accSub">
+					<label class="check" id="c7">
+						<input type="checkbox" id="cb7">
+						<span class="icon" > </span>
+					</label>
+					<input type="checkbox" id="answer07">
+					<label class="D" for="answer07"> 대피 확인 및 대피 유도<em></em></label>
+					<ul><li>주민 대피여부를 확인하고 주민 대피 유도 조치</li>
+						<li>필요시 대피범위, 인원 확대 </li>
+					</ul>
+				</div>
+				
+				<div class="accSub">
+					<label class="check" id="c8">
+						<input type="checkbox" id="cb8">
+						<span class="icon"> </span>
+					</label>
+					<input type="checkbox" id="answer08">
+					<label class="D" for="answer08">피해 방지를 위한 안전조치<em></em></label>
+					<ul><li>사상자 구호를 위한 구급차, 의료진 배치</li>
+						<li>현장 (시설) 주변 <a href="http://www.gnnews.co.kr/news/articleView.html?idxno=290344">에어매트</a> 등 설치</li>
+						<li>테러범 자극 행위 일체 엄금</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</main>
+	<br><br>
+	<footer></footer>
+</body>
 </html>

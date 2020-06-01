@@ -1,38 +1,35 @@
 <!doctype html>
 <html>
-		<head>
-			<meta charset="utf-8">
-			<title>방사능선량계</title>
+<head>
+	<meta charset="utf-8">
+	<title>방사능선량계</title>
+
+	<link rel = "apple-touch-icon-precomposed" href="./picture/apple-touch-icon.png">
+	<link rel="shortcut icon" href="./picture/android-icon-72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="./picture/apple-icon-72x72.png">
+	<link rel="stylesheet" href="./css/테러.css">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1">
+	<script type="text/javascript" src="./JS/header.js"></script>
+	<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#menus").load("menu.html")
+		});
+	</script>
+</head>
+<body>
+	<header>
+		<img class="style-logo" src="./picture/남부청로고1.png" alt="style logo">
+
+	</header>
+	<main>
+		<img src="./picture/방사능측정기사용.jpg" alt=""> <br>
+		<img src="./picture/선량계사용.jpg" alt=""> <br>
 		
-			<link rel = "apple-touch-icon-precomposed" href="./picture/apple-touch-icon.png">
-			<link rel="shortcut icon" href="./picture/android-icon-72x72.png">
-			<link rel="apple-touch-icon-precomposed" href="./picture/apple-icon-72x72.png">
-			<link rel="stylesheet" href="./css/테러.css">
-			<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1">
-			<script type="text/javascript" src="./JS/header.js"></script>
-			<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
-			<script type="text/javascript">
-				$(document).ready(function(){
-					$("#menus").load("menu.html")
-				});
-			</script>
-		</head>
-		<body>
-				<header>
-					<img class="style-logo" src="./picture/남부청로고1.png" alt="style logo">
-				
-				</header>
-				<main>
-					<img src="./picture/방사능측정기사용.JPG" alt=""> <br>
-					<img src="./picture/선량계사용내용.jpg" alt=""> <br>
-		
-					
-		<!--사이드 메뉴 만들기----------------------------------->
-			<div id="menus"></div>			
-	
-<!--------------------------------------------------------------->						
-					
-				</main>
-				<footer></footer>
-		</body>
+
+		<div id="menus"></div> <!-- 사이드 메뉴 만들기 -->
+
+	</main>
+	<footer></footer>
+</body>
 </html>

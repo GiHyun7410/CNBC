@@ -1,213 +1,213 @@
 <!doctype html>
 <html>
-		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1">
-			<title>관계기관 연락</title>
-			<script src="./JS/jquery-3.4.1.min.js" type="text/javascript"></script>
-			
-			<style type="text/css">
-				@import url("./css/관계기관연락처.css");
-			</style>
-			<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
-						
-			<script>
-			$(document).ready(function(){
-				$("#keyword").keyup(function(){
-					var k = $(this).val();
-					$("#user-table > tbody > tr").hide();
-					var temp = $("#user-table > tbody > tr > td:nth-child(10n+1):contains('" + k + "')");
-					
-					$(temp).parent().show();
-				})
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1">
+	<title>관계기관 연락</title>
+	<script src="./JS/jquery-3.4.1.min.js" type="text/javascript"></script>
+	
+	<style type="text/css">
+		@import url("./css/관계기관연락처.css");
+	</style>
+	<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			$("#keyword").keyup(function(){
+				var k = $(this).val();
+				$("#user-table > tbody > tr").hide();
+				var temp = $("#user-table > tbody > tr > td:nth-child(10n+1):contains('" + k + "')");
+				
+				$(temp).parent().show();
 			})
-			</script>
-		</head>
-		<body>
-			<header></header>
-		<main>
-								
+		})
+	</script>
+</head>
+<body>
+	<header></header>
+	<main>
+		
 		<!--사이드 메뉴 만들기----------------------------------->
-	<input type="checkbox" id="sidebar"> 
-	<label for="sidebar">
-		<span>목</span>
-		<span>차</span>
-	</label>
+		<input type="checkbox" id="sidebar"> 
+		<label for="sidebar">
+			<span>목</span>
+			<span>차</span>
+		</label>
 
-	<div class="sidebar_content">
-		<ul>
-			<li><a href="index.html" class=""><img src="./picture/메인화면1.jpg" alt=""></a></li>
-			<li><a href="폭발물테러.html" class=""><img src="./picture/폭발물테러.JPG" alt=""></a></li>
-			<li><a href="총기테러.html" class=""><img src="./picture/총기인질테러.JPG" alt="">	</a></li>
-			<li><a href="화학테러.html"  class=""><img src="./picture/화학테러.JPG" alt=""></a></li>
-			<li><a href="생물학테러.html"  class=""><img src="./picture/생물학테러.JPG" alt=""></a></li>
-			<li><a href="방사능테러.html"  class=""><img src="./picture/방사능테러.JPG" alt=""></a></li>
-		</ul>
-		<label for="sidebar"></label>
-	</div>
+		<div class="sidebar_content">
+			<ul>
+				<li><a href="index.html" class=""><img src="./picture/메인화면1.jpg" alt=""></a></li>
+				<li><a href="폭발물테러.html" class=""><img src="./picture/폭발물테러.JPG" alt=""></a></li>
+				<li><a href="총기테러.html" class=""><img src="./picture/총기인질테러.JPG" alt="">	</a></li>
+				<li><a href="화학테러.html"  class=""><img src="./picture/화학테러.JPG" alt=""></a></li>
+				<li><a href="생물학테러.html"  class=""><img src="./picture/생물학테러.JPG" alt=""></a></li>
+				<li><a href="방사능테러.html"  class=""><img src="./picture/방사능테러.JPG" alt=""></a></li>
+			</ul>
+			<label for="sidebar"></label>
+		</div>
 
 		<label for="sidebar" class="background"></label>
 
-<!-------------------------------------------사이드 두번쩨-------------------->
+		<!-------------------------------------------사이드 두번쩨-------------------->
 
 
-	<input type="checkbox" id="sidebar1"> 
-	<label for="sidebar1">
-		<span>장</span>
-		<span>비</span>
-	</label>
+		<input type="checkbox" id="sidebar1"> 
+		<label for="sidebar1">
+			<span>장</span>
+			<span>비</span>
+		</label>
 
-	<div class="sidebar_content1">
-		<ul>
-			<li><a href="방독면착용.html" class=""><img src="./picture/K5방독면착용.JPG" alt=""></a></li>
-			<li><a href="화재대피마스크.html" class=""><img src="./picture/화재대피방독면.jpg" alt=""></a></li>
-			<li><a href="화생방보호복착용.html" class=""><img src="./picture/화생방보호의착용.JPG" alt=""></a></li>
-			<li><a href="레벨C착용.html"  class=""><img src="./picture/레벨C착용.JPG" alt=""></a></li>
-			<li><a href="제독제사용.html"  class=""><img src="./picture/제독제사용.JPG" alt=""></a></li>
-			<li><a href="방사능선량계.html"  class=""><img src="./picture/방사능측정기사용.JPG" alt=""></a></li>
-			<li><a href="제독장비사용.html"  class=""><img src="./picture/제독장비사용.JPG" alt=""></a></li>
-		</ul>
-		<label for="sidebar1"></label>
-	</div>
+		<div class="sidebar_content1">
+			<ul>
+				<li><a href="방독면착용.html" class=""><img src="./picture/K5방독면착용.JPG" alt=""></a></li>
+				<li><a href="화재대피마스크.html" class=""><img src="./picture/화재대피방독면.jpg" alt=""></a></li>
+				<li><a href="화생방보호복착용.html" class=""><img src="./picture/화생방보호의착용.JPG" alt=""></a></li>
+				<li><a href="레벨C착용.html"  class=""><img src="./picture/레벨C착용.JPG" alt=""></a></li>
+				<!-- <li><a href="제독제사용.html"  class=""><img src="./picture/제독제사용.JPG" alt=""></a></li> -->
+				<li><a href="방사능선량계.html"  class=""><img src="./picture/방사능측정기사용.JPG" alt=""></a></li>
+				<!-- <li><a href="제독장비사용.html"  class=""><img src="./picture/제독장비사용.JPG" alt=""></a></li> -->
+			</ul>
+			<label for="sidebar1"></label>
+		</div>
 
 		<label for="sidebar1" class="background1"></label>
-<!--------------------------------------------------------------->
-<!--------------------------------------------------------------->
-	
-				<div id="containerA">
-					<div id="input-form">
-					관서 검색 : <input type="text" id="keyword" />
-					</div>
-					
-				<table id="user-table">
-					<caption>관계기관 연락처</caption>
+		<!--------------------------------------------------------------->
+		<!--------------------------------------------------------------->
+		
+		<div id="containerA">
+			<div id="input-form">
+				관서 검색 : <input type="text" id="keyword" />
+			</div>
+			
+			<table id="user-table">
+				<caption>관계기관 연락처</caption>
 
-					<thead>
-						<tr bgcolor="#9CE8BF">
-							<th>관서</th>	
-							<th>부서</th>
-							<th>전화번호</th>
-						</tr>
-					</thead>
+				<thead>
+					<tr bgcolor="#9CE8BF">
+						<th>관서</th>	
+						<th>부서</th>
+						<th>전화번호</th>
+					</tr>
+				</thead>
 				<tbody>
 					<tr>
-					<td>경찰청</td>
-					<td>대테러과<br>(안전계)</td>
+						<td>경찰청</td>
+						<td>대테러과<br>(안전계)</td>
 						<td><button onClick="document.location.href='tel:02-3150-0505'">02-3150-0404</button></td>
 					</tr>
 					
 					<tr>
-					<td>경기남부<br>경찰청</td>
-					<td>경비과<br>(대테러계)</td>
-					<td><button onClick="document.location.href='tel:031-888-2361'">031-888-2361</button></td>
+						<td>경기남부<br>경찰청</td>
+						<td>경비과<br>(대테러계)</td>
+						<td><button onClick="document.location.href='tel:031-888-2361'">031-888-2361</button></td>
 					</tr>
 					
 					<tr>
-					<td>경기남부<br>경찰청</td>
-					<td>경찰특공대<br>(상황실)</td>
-					<td><button onClick="document.location.href='tel:031-888-3856'">031-888-3856</button></td>
+						<td>경기남부<br>경찰청</td>
+						<td>경찰특공대<br>(상황실)</td>
+						<td><button onClick="document.location.href='tel:031-888-3856'">031-888-3856</button></td>
 					</tr>
+					
+					<tr>
+						<td>경기남부<br>경찰청</td>
+						<td>경찰관<br>4기동대</td>
+						<td><button onClick="document.location.href='tel:031-888-3204'">031-888-3204</button></td>
+					</tr>
+					
+					<tr>
+						<td>경기남부<br>경찰청</td>
+						<td>경찰관<br>5기동대</td>
+						<td><button onClick="document.location.href='tel:031-888-3105'">031-888-3105</button></td>
+					</tr>
+					
+					<tr>
+						<td>경기남부<br>경찰청</td>
+						<td>수원남부<br>112타격대</td>
+						<td><button onClick="document.location.href='tel:031-888-3105'">031-888-0000</button></td>
+					</tr>
+					
+					<tr>
+						<td>경기남부<br>경찰청</td>
+						<td>안산단원<br>112타격대</td>
+						<td><button onClick="document.location.href='tel:031-888-3105'">031-888-0000</button></td>
+					</tr>
+					
+					<tr>
+						<td>경기남부<br>경찰청</td>
+						<td>시흥<br>112타격대</td>
+						<td><button onClick="document.location.href='tel:031-888-0000'">031-888-0000</button></td>
+					</tr>
+					
+					<tr>
+						<td>국정원<br>경기지부</td>
+						<td>대테러과</td>
+						<td><button onClick="document.location.href='tel:031-248-8624'">031-248-8624</button></td>
+					</tr>
+					
+					<tr>
+						<td>경기도청</td>
+						<td>사회재난과</td>
+						<td><button onClick="document.location.href='tel:031-241-0932'">031-241-0932</button></td>
+					</tr>
+					
+					<tr>
+						<td>경기도청</td>
+						<td>감염병관리과</td>
+						<td><button onClick="document.location.href='tel:031-800-85436'">031-8008-5436</button></td>
+					</tr>
+					
+					<tr>
+						<td>경기도<br>소방재난본부</td>
+						<td>대응구조구급과</td>
+						<td><button onClick="document.location.href='tel:031-230-2912'">031-230-2912</button></td>
+					</tr>
+					
+					<tr>
+						<td>경기도<br>소방재난본부</td>
+						<td>대응구조구급과</td>
+						<td><button onClick="document.location.href='tel:031-230-2912'">031-230-2912</button></td>
+					</tr>
+					
+					<tr>
+						<td>경기도<br>소방재난본부</td>
+						<td>특수대응단</td>
+						<td><button onClick="document.location.href='tel:031-230-5816'">031-230-5816</button></td>
+					</tr>
+					
+					<tr>
+						<td>한강유역<br>환경청</td>
+						<td>대응지원팀</td>
+						<td><button onClick="document.location.href='tel:031-790-2898'">031-790-2898</button></td>
+					</tr>
+					
+					<tr>
+						<td>한강유역<br>환경청</td>
+						<td>시흥합동<br>방재센터</td>
+						<td><button onClick="document.location.href='tel:031-470-2411'">031-470-2411</button></td>
+					</tr>
+					
+					<tr>
+						<td>원자력<br>안전위원회</td>
+						<td>방재환경과</td>
+						<td><button onClick="document.location.href='tel:02-397-7359'">02-397-7359</button></td>
+					</tr>
+					
+					<tr>
+						<td>원자력<br>안전기술원</td>
+						<td>-</td>
+						<td><button onClick="document.location.href='tel:042-868-0000'">042-868-0000</button></td>
+					</tr>
+				</tbody>
+				<tfoot>
+				</tfoot>
 				
-					<tr>
-					<td>경기남부<br>경찰청</td>
-					<td>경찰관<br>4기동대</td>
-					<td><button onClick="document.location.href='tel:031-888-3204'">031-888-3204</button></td>
-					</tr>
-					
-					<tr>
-					<td>경기남부<br>경찰청</td>
-					<td>경찰관<br>5기동대</td>
-					<td><button onClick="document.location.href='tel:031-888-3105'">031-888-3105</button></td>
-					</tr>
-					
-					<tr>
-					<td>경기남부<br>경찰청</td>
-					<td>수원남부<br>112타격대</td>
-					<td><button onClick="document.location.href='tel:031-888-3105'">031-888-0000</button></td>
-					</tr>
-					
-					<tr>
-					<td>경기남부<br>경찰청</td>
-					<td>안산단원<br>112타격대</td>
-					<td><button onClick="document.location.href='tel:031-888-3105'">031-888-0000</button></td>
-					</tr>
-					
-					<tr>
-					<td>경기남부<br>경찰청</td>
-					<td>시흥<br>112타격대</td>
-					<td><button onClick="document.location.href='tel:031-888-0000'">031-888-0000</button></td>
-					</tr>
-					
-					<tr>
-					<td>국정원<br>경기지부</td>
-					<td>대테러과</td>
-					<td><button onClick="document.location.href='tel:031-248-8624'">031-248-8624</button></td>
-					</tr>
-					
-					<tr>
-					<td>경기도청</td>
-					<td>사회재난과</td>
-					<td><button onClick="document.location.href='tel:031-241-0932'">031-241-0932</button></td>
-					</tr>
-					
-					<tr>
-					<td>경기도청</td>
-					<td>감염병관리과</td>
-					<td><button onClick="document.location.href='tel:031-800-85436'">031-8008-5436</button></td>
-					</tr>
-					
-					<tr>
-					<td>경기도<br>소방재난본부</td>
-					<td>대응구조구급과</td>
-					<td><button onClick="document.location.href='tel:031-230-2912'">031-230-2912</button></td>
-					</tr>
-					
-					<tr>
-					<td>경기도<br>소방재난본부</td>
-					<td>대응구조구급과</td>
-					<td><button onClick="document.location.href='tel:031-230-2912'">031-230-2912</button></td>
-					</tr>
-					
-					<tr>
-					<td>경기도<br>소방재난본부</td>
-					<td>특수대응단</td>
-					<td><button onClick="document.location.href='tel:031-230-5816'">031-230-5816</button></td>
-					</tr>
-					
-					<tr>
-					<td>한강유역<br>환경청</td>
-					<td>대응지원팀</td>
-					<td><button onClick="document.location.href='tel:031-790-2898'">031-790-2898</button></td>
-					</tr>
-					
-					<tr>
-					<td>한강유역<br>환경청</td>
-					<td>시흥합동<br>방재센터</td>
-					<td><button onClick="document.location.href='tel:031-470-2411'">031-470-2411</button></td>
-					</tr>
-					
-					<tr>
-					<td>원자력<br>안전위원회</td>
-					<td>방재환경과</td>
-					<td><button onClick="document.location.href='tel:02-397-7359'">02-397-7359</button></td>
-					</tr>
-					
-					<tr>
-					<td>원자력<br>안전기술원</td>
-					<td>-</td>
-					<td><button onClick="document.location.href='tel:042-868-0000'">042-868-0000</button></td>
-					</tr>
-					</tbody>
-					<tfoot>
-					</tfoot>
-					
-				</table>
-			</div>
-					
+			</table>
+		</div>
+		
 
-			</main>
-				<br><br>
-			<footer>
-			</footer>
-		</body>
+	</main>
+	<br><br>
+	<footer>
+	</footer>
+</body>
 </html>
